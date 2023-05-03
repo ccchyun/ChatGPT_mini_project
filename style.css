@@ -1,0 +1,117 @@
+/* 전체 스타일 */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* 헤더 스타일 */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+  
+  /* 네비게이션 스타일 */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* 메인 스타일 */
+  main {
+    padding: 20px;
+  }
+  
+  /* 특징 섹션 스타일 */
+  .featured {
+    background-color: #fff;
+    margin-top: 60px;
+    padding: 50px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .featured h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .featured p {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: center;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* 포트폴리오 섹션 스타일 */
+  .portfolio {
+    background-image: url("https://picsum.photos/1500/800");
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .portfolio h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .portfolio p {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* 푸터 스타일 */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+ 
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    width: 400px;
+    margin: 20px;
+    text-align: center;
+  }
